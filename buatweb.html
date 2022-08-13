@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <style>
+        * {
+            margin: 0;
+            padding:0;
+        }
+        body {
+            width: 960px;
+            margin: auto;
+            background-color: #eaeaea;         
+            background-image: url(../codingCSS/background/gambar1.png);
+            background-size: cover;
+            position: relative;
+        }
+
+        header {
+            background-color: white;
+            padding-bottom: 15px;
+            margin: auto;
+            margin-top: 20px;
+             
+        }
+
+        h1 {
+           padding-left: 12px;
+           font-size: 50px;
+           font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+        ul, li, a {
+            display: inline-block;
+            padding-left: 7px;
+            font-size: 16px;
+            padding-bottom: 3px;
+            color: salmon;
+        }
+
+        .hero {
+            background-image: url(../../img/jumbotron-bg.jpg);
+            height: 250px;
+            border-top: 5px solid salmon;
+            background-color: white;
+            border-bottom: 3px solid lightskyblue;
+            background-size: cover;
+            background-position: 0 -150px;
+        }
+        
+        .judul {
+            font-size: 30px;
+            padding-top: 5px;
+        }
+
+        .tulis {
+            padding-left: 13px;
+            padding-top: 1px;
+            font-size: 15px;
+        }
+
+        #tulis {
+            padding-left: 5px;
+            text-decoration: none;
+            color: salmon;
+        }
+
+        .paragraf p {
+            width: 600px;
+            margin-bottom: 20px;
+            padding-left: 10px;
+            display: inline-block;
+            font-size: 17px;
+            box-sizing: border-box;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 10px;              
+        }
+
+        a:hover {
+            color: lightskyblue;;
+        }
+
+        .tulis p {
+            margin-bottom: 20px;
+        }
+       
+        .main {
+            background-color: white;
+        }
+
+        .sidebar {
+            float: right;
+            width: 300px;
+            padding: 20px;
+        }
+
+        .sidebar h3{
+            font-weight: bold;
+            color: #666;
+        }
+
+       .sidebar img {
+            width: 70px;
+            height: 70px;
+            float: left;
+            padding: 10px;
+       }
+
+       .sidebar p {
+        font: 12px/18px arial;
+       }
+
+       .kotak {
+        width: 100%;
+        height: 40px;
+        background-color: black;
+        top: 0;
+        left: 0;
+        position: fixed;
+        z-index: 99;
+        
+       }
+
+       .kotak1 {
+        z-index:999;
+        color: white;
+        padding:7px;
+       }
+
+       .kotak2 {
+        z-index: 9999;
+        color: white;
+        position: fixed;
+        left: 25%;
+        top: 0;
+        display: inline-block;
+        padding:8px;
+        font-size: 20px;
+        text-decoration: none;
+        font-weight: bold;
+        
+       }
+
+       .kotak3 {
+        z-index: 9999;
+        color: white;
+        position: fixed;
+        left: 47%;
+        top: 0;
+        display: inline-block;
+        padding: 8px;
+        font-size: 20px;
+        text-decoration: none;
+        font-weight: bold;
+        
+       }
+
+       .kotak4 {
+        z-index: 9999;
+        color: white;
+        position: fixed;
+        left: 70%;
+        top: 0;
+        display: inline-block;
+        padding:8px;
+        font-size: 20px;
+        text-decoration: none;
+        font-weight: bold;
+       }
+
+       .fotolink {
+        width: 90px;
+        z-index: 9;
+        position: absolute;
+        right: 0%;
+       }
+ 
+
+        /* clear fix */
+ 
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
+
+    </style>
+<body>
+ <header>
+     <a href="#"><img class="fotolink" src="../../img/pngegg.png"></a>
+     <h1>My Website</h1>
+
+     <ul>
+         <li><a href="#">home</a></li>
+         <li><a href="#">about</a></li>
+         <li><a href="#">product</a></li>
+         <li><a href="#">service</a></li>
+         <li><a href="#">contact</a></li>
+     </ul>
+           
+     
+     <div class="hero">
+         
+    
+</div>
+    <div class="main">
+        
+        <div class="sidebar">      
+            <h3>Tentang Penulis</h3>
+            <img src="../../img/employee.png" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda ad provident minima nulla quaerat ratione consectetur omnis veniam accusantium in rerum error, quas eum molestias, rem neque reiciendis fuga necessitatibus.</p>
+            </div>
+
+        <div class="tulis">
+            <h2 class="judul">Judul Artikel</h2> 
+     <p>di tulis oleh<a id="tulis" href="#">Ndikspry</a> Pada 1 january 2022</p>
+    </div>
+     
+   <div class="paragraf">
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel aspernatur ullam dolor soluta voluptate odit nihil ex quos officia aliquam? Autem quas nesciunt voluptatem non beatae recusandae facere quibusdam enim rerum! Provident optio nemo debitis repellendus sit, rerum officia quidem. Odio quisquam quaerat dolores assumenda, incidunt laborum! Ullam, nihil enim?</p>
+
+     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe aut hic distinctio cum repudiandae eius sit debitis unde animi nostrum quis dolores repellendus pariatur consequatur minus, sapiente similique qui, consectetur soluta! Illo possimus temporibus impedit sed voluptate cum accusamus dolore voluptates quae. Mollitia corporis dolorem officia blanditiis sint consequatur quam expedita eos doloribus eaque neque aperiam, voluptates unde nisi autem maxime magnam! Incidunt animi perspiciatis fuga nemo voluptas deserunt nam sunt laboriosam in, debitis ipsam repellendus? Earum quas quidem enim sunt libero ratione, fugit corrupti, suscipit ipsum deleniti asperiores eum. Quam necessitatibus consectetur assumenda voluptates, sapiente eaque velit incidunt corrupti.</p>
+     
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat similique harum nam praesentium, maxime aliquam distinctio facilis veritatis ab, hic laborum voluptatem vero quos odit eaque eum! Illum suscipit harum accusantium eum tempore dignissimos pariatur perspiciatis at fugiat libero corrupti esse distinctio provident rerum possimus dicta, facere quas ad repellendus dolorem deserunt a neque quam veniam. Sapiente fugit assumenda, doloribus animi consequatur, mollitia voluptatum natus omnis ullam repellat cum, error accusantium architecto soluta vero magnam? Magnam neque dolore impedit enim.</p></div>
+    </div>
+</header>
+    
+    <footer>
+        <p>Copyright 2016. Ndikspry all rights reserved</p>
+    </footer>
+    
+<div class="kotak">
+    <h2 class="kotak1">Welcome To My Website</h2>
+    <a class="kotak2" href="#">Home</a>
+    <a class="kotak3" href="#">About</a>
+    <a class="kotak4" href="#">Contact</a>
+
+
+    
+</div>
+    
+
+</body>
+</html>
